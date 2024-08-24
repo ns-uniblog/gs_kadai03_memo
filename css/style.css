@@ -1,0 +1,69 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* フォント設定 */
+    font-size: 16px; /* 全体のフォントサイズ設定 */
+    color: #333; /* テキストカラー設定 */
+    background-color: #f4f4f4; /* 背景色設定 */
+}
+
+h1 {
+    text-align: center;
+    font-size: 24px; /* ヘッダーのフォントサイズ設定 */
+    color: #C97064; /* ヘッダーのフォントカラー設定 */
+}
+
+form {
+    width: 90%;
+    margin: 0 auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    background-color: #fff; /* テーブル背景色設定 */
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* テーブル内のフォント設定 */
+    font-size: 16px; /* テーブル内のフォントサイズ設定 */
+}
+
+th.section-header {
+    background-color: #C97064; /* セクションヘッダーの背景色設定 */
+    color: #fff; /* セクションヘッダーの文字色設定 */
+    border-bottom: 2px solid #ddd;
+}
+
+th {
+    background-color: #3CBFB9; /* テーブルヘッダーの背景色設定 */
+    color: #fff; /* テーブルヘッダーの文字色設定 */
+}
+
+tr:first-child th {
+    border-top: 2px solid #ddd;
+}
+
+input {
+    width: 100%;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* インプット要素のフォント設定 */
+    font-size: 16px; /* インプット要素のフォントサイズ設定 */
+    padding: 8px; /* インプットのパディング調整 */
+    border: 1px solid #ddd; /* インプットのボーダー設定 */
+    text-align: left; /* インプットのテキストを左揃えにする */
+}
+
+button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    color: #fff;
+    background-color: #3CBFB9; /* ボタンの背景色設定 */
+    font-size: 16px; /* ボタンのフォントサイズ設定 */
+    cursor: pointer;
+    font-family: 'Segoe UI', Tahoma, Geneva,
+}
